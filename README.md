@@ -1,5 +1,9 @@
 # NeuroBiometric: Eye Blink Based Biometric Authentication System Using Event-based Neuromorphic Vision Sensor
 
+![image](https://github.com/XD7479/NeuroBiometric/blob/master/images/raw_data_img_series.png)
+
+![image](https://github.com/XD7479/NeuroBiometric/blob/master/images/raw_data_scatter_plot.png)
+
 ## Introduction
 This repository has released the original dataset of NeuroBiometric.To study the biometric authentication system with an event-based neuromorphic vision sensor, we collected a new dataset with eye blink signals recorded by the DAVIS sensor named NeuroBiometric dataset. 
 The DAVIS sensor we used is DAVIS346, which has a resolution of 346*260 pixels, a temporal resolution of 1 μs and an outstanding dynamic range (up to 140 dB). We have 45 volunteers (of whom, 23 are men and 22 are women) to participate in our recording. 
