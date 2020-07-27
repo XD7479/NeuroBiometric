@@ -15,6 +15,9 @@ Only the facial region includes eyebrow and ocular is recorded by the DAVIS sens
 All the raw data are named in a format of 'Davis346redColor-yyyy-mm-ddTsxx-kk.aedat', in which 'yyyy-mm-dd' is the date when a piece of data was collected, 'xx' is the participant id, and 'kk' represents the vedio id of a participant. For an instance, 'Davis346redColor-2019-03-11Ts01-01.aedat' is the 1st vedio of participant 1, which recorded at '2019 May 11th'.
 
 ## How to Use
+'eyeblink_to_img.py' helps to convert original '.aedat' data into images. 
+A filteration process(introduced in our paper) is contained, but you can choose to not filter the raw data by set the 'filter_flag' as False.
+
 
 ## Contact
 xiaodingyuan.tj@gmail.com
