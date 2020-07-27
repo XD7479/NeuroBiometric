@@ -16,8 +16,12 @@ All the raw data are named in a format of 'Davis346redColor-yyyy-mm-ddTsxx-kk.ae
 
 ## How to Use
 'eyeblink_to_img.py' helps to convert original '.aedat' data into images. 
-A filteration process(introduced in our paper) is contained, but you can choose to not filter the raw data by set the 'filter_flag' as False.
-
+A filteration process(introduced in our paper) is contained, but you can choose not to filter the raw data by set 'filter_flag' as False.
+In addition, you can set 'binary' as True if binary images are expected as outputs.
+```
+binary = False         # True: output binary images
+filter_flag = False    # True: use filter
+```
 
 ## Contact
 xiaodingyuan.tj@gmail.com
